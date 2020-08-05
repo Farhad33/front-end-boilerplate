@@ -4,7 +4,8 @@
   "description": "React front-end-boilerplate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config ./config/webpack.prod.js",
+    "start": "webpack --config ./config/webpack.dev.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,19 @@
   "bugs": {
     "url": "https://github.com/Farhad33/front-end-boilerplate/issues"
   },
-  "homepage": "https://github.com/Farhad33/front-end-boilerplate#readme"
+  "homepage": "https://github.com/Farhad33/front-end-boilerplate#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "path": "^0.12.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-merge": "^5.1.1"
+  }
 }
