@@ -1,0 +1,19 @@
+{
+  "name": "front-end-boilerplate",
+  "version": "1.0.0",
+  "description": "React front-end-boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Farhad33/front-end-boilerplate.git"
+  },
+  "author": "Majid Rahimi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Farhad33/front-end-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Farhad33/front-end-boilerplate#readme"
+}
