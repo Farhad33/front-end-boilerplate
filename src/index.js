@@ -1,7 +1,6 @@
 import React from "react"
 import ReactDOM from 'react-dom'
-
-const Hello = () => <h1>hello world</h1>
+import Routes from './Routes.jsx'
 
 const rootContainer = document.getElementById("root")
-ReactDOM.render(<Hello />, rootContainer)
+ReactDOM.render(<Routes />, rootContainer)
