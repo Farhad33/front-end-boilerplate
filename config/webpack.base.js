@@ -20,7 +20,16 @@ module.exports = {
                 options: {
                     presets: [
                         '@babel/preset-react',
-                        ['@babel/preset-env', { targets: { browsers: ['last 4 versions']}}]
+                        ['@babel/preset-env', { targets: { browsers: ['last 4 versions']}}],
+                        {
+                            "plugins": [[
+                                "babel-plugin-styled-components",
+                                {
+                                    "displayName": true,
+                                    "ssr": false
+                                }
+                            ]]
+                        }
                     ]
                 }
             }
